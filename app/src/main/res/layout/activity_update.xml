@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="16dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="16dp"
+    tools:context=".UpdateActivity">
+
+    <EditText
+        android:id="@+id/edRollnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mã sinh viên"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:hint="Tên sinh viên"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/edGender2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#2196F3"
+        android:text="Cập nhật"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#E91E63"
+        android:text="Xoá"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
